@@ -5,7 +5,7 @@ BEGIN
     REPEAT
         Read(ps);
     UNTIL (ps <= 0 OR n > 1);
-    RETURN ps    
+    RETURN ps;    
 END 
 
 PROCEDURE dot_product(n :INTEGER, VAR T: ARRAY_OF_INTEGER)
